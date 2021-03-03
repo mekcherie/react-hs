@@ -14,6 +14,7 @@ function Content(props) {
         <h1> {title} </h1>
         <h5>{info}</h5>
       </div> 
+      
       <div className="HS">
         <img src={`${process.env.PUBLIC_URL}/images/${image}`}
          width="300" height="300" alt="Hello" />
