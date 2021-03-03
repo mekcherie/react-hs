@@ -1,0 +1,22 @@
+.Content {
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  
+  .Content > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .Content img {
+    width: 100%;
+    height: auto;
+}
+
+.Content .Content-title {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
