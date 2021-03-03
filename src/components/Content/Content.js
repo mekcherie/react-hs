@@ -10,15 +10,14 @@ function Content(props) {
   return (
     <div className="Content">
 
-      <h1>
-          <h3>{title}</h3>
-      </h1>
-      <h5>
-          <h3>{info}</h3>
-      </h5>
+      <div className="hs"> 
+        <h1> {title} </h1>
+        <h5>{info}</h5>
+      </div> 
+      <div className="HS">
         <img src={`${process.env.PUBLIC_URL}/images/${image}`}
          width="300" height="300" alt="Hello" />
-
+      </div>
       </div>
   )
 } 

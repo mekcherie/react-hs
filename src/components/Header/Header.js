@@ -15,12 +15,12 @@ function Header() {
                     className="nav-link"
                     activeClassName="nav-link-active"
                     exact
-                    to="/">About</NavLink>
+                    to="/">Information</NavLink>
 
                 <NavLink
                     className="nav-link"
                     activeClassName="nav-link-active"
-                    to="/about">Information</NavLink>
+                    to="/about">About</NavLink>
                 </div>
             </header>
         </div>
